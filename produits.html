@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Catalogue — MolArgan</title>
+<meta name="description" content="Catalogue MolArgan : huile d'argan, amlou, miel, pollen et cosmétiques naturels. Commande sur WhatsApp.">
+<meta name="theme-color" content="#faf5ea">
+<link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Jost:wght@300;400;500;600&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="produits">
+<script src="assets/js/icons.js"></script>
+<div class="progress" id="progress"></div>
+
+<header id="top">
+  <div class="wrap nav">
+    <a href="index.html" class="logo">
+      <span class="logo-mark"><img src="assets/img/leaf-gold.svg" alt=""></span>
+      <span><b>MOLARGAN</b><small>Coopérative marocaine</small></span>
+    </a>
+    <nav class="menu" id="menu" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="produits.html" class="active">Produits</a>
+      <a href="about.html">À propos</a>
+      <a href="tel:+212665354921">06 65 35 49 21</a>
+      <a class="btn btn-gold" href="https://wa.me/212665354921">Commander</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="page-head">
+  <div class="wrap">
+    <p class="crumb rv"><a href="index.html">Accueil</a> / Produits</p>
+    <h1 class="rv" style="--d:.08s">Notre <em>catalogue</em></h1>
+    <p class="lead rv" style="--d:.16s">Argan, amlou, miel et cosmétiques naturels : choisissez un produit et commandez directement sur WhatsApp, en gros ou au détail.</p>
+  </div>
+</section>
+<div class="toolbar">
+  <div class="wrap">
+    <label class="search"><svg class="ic " aria-hidden="true"><use href="#i-search"/></svg><input id="q" type="search" placeholder="Rechercher un produit…" autocomplete="off" aria-label="Rechercher un produit"></label>
+    <div class="chips" id="chips" role="group" aria-label="Catégories"></div>
+  </div>
+</div>
+<section class="catalog">
+  <div class="wrap">
+    <p class="count" id="count" aria-live="polite"></p>
+    <div class="grid" id="grid"></div>
+    <div class="empty" id="empty" hidden>
+      <b>Aucun produit trouvé</b>
+      <p>Essayez un autre mot-clé ou une autre catégorie.</p>
+      <button type="button" class="btn btn-gold" id="reset">Voir tous les produits</button>
+    </div>
+  </div>
+</section>
+<section class="cta-band" style="padding-top:20px">
+  <div class="wrap"><div class="band rv">
+    <h2>Un produit en gros ?</h2>
+    <p>Dites-nous les quantités qui vous intéressent : nous vous répondons rapidement sur WhatsApp.</p>
+    <div class="cta"><a class="btn btn-light" style="background:#fff;color:var(--olive)" href="https://wa.me/212665354921">Écrire sur WhatsApp</a><a class="btn btn-light" href="tel:+212665354921">Appeler</a></div>
+  </div></div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="f-grid">
+      <div><a href="index.html" class="logo" style="padding:0"><span class="logo-mark"><img src="assets/img/leaf-dark.svg" alt=""></span><span><b>MOLARGAN</b></span></a>
+        <p style="margin-top:16px;max-width:34ch">Coopérative marocaine dédiée à l’argan, au miel, à l’amlou et aux soins naturels.</p></div>
+      <div><h4>Navigation</h4><a href="index.html">Accueil</a><a href="produits.html">Produits</a><a href="about.html">À propos</a></div>
+      <div><h4>Catalogue</h4><a href="produits.html?cat=argan">Huile d’argan</a><a href="produits.html?cat=amlou">Amlou</a><a href="produits.html?cat=miel">Miel &amp; pollen</a><a href="produits.html?cat=cosmetiques">Cosmétiques</a></div>
+      <div><h4>Contact</h4><a href="tel:+212665354921">+212 665 354 921</a><a href="https://wa.me/212665354921">WhatsApp</a><p>Vente en gros et au détail</p></div>
+    </div>
+    <div class="copy"><span>© 2026 MolArgan</span><span>Maquette de redesign — concept</span></div>
+  </div>
+</footer>
+
+<nav class="tabbar" aria-label="Navigation mobile">
+  <a class="tab" href="index.html"><svg class="ic " aria-hidden="true"><use href="#i-home"/></svg><span>Accueil</span></a>
+  <a class="tab active" href="produits.html" aria-current="page"><svg class="ic " aria-hidden="true"><use href="#i-grid"/></svg><span>Produits</span></a>
+  <a class="tab-wa" href="https://wa.me/212665354921" aria-label="Commander sur WhatsApp"><img src="assets/img/whatsapp.svg" alt=""></a>
+  <a class="tab" href="about.html"><svg class="ic " aria-hidden="true"><use href="#i-info"/></svg><span>À propos</span></a>
+  <a class="tab" href="tel:+212665354921"><svg class="ic " aria-hidden="true"><use href="#i-phone"/></svg><span>Appeler</span></a>
+</nav>
+<a class="float-wa" href="https://wa.me/212665354921" aria-label="WhatsApp"><img src="assets/img/whatsapp.svg" alt=""></a>
+<dialog id="pmodal" class="pmodal" aria-label="Détails du produit"></dialog>
+
+<script src="assets/data/products.js" defer></script>
+<script src="assets/js/main.js" defer></script>
+<script src="assets/js/catalog.js" defer></script>
+</body>
+</html>

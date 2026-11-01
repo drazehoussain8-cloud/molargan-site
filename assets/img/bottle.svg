@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 260">
+        <defs>
+          <linearGradient id="glass" x1="0" x2="1"><stop offset="0" stop-color="#6b3f12"/><stop offset=".45" stop-color="#d9a13f"/><stop offset="1" stop-color="#5a320c"/></linearGradient>
+          <linearGradient id="cap" x1="0" x2="1"><stop offset="0" stop-color="#1f2717"/><stop offset=".5" stop-color="#46563a"/><stop offset="1" stop-color="#1f2717"/></linearGradient>
+        </defs>
+        <rect x="44" y="6" width="32" height="34" rx="6" fill="url(#cap)"/>
+        <rect x="50" y="38" width="20" height="22" fill="#caa05a"/>
+        <path d="M50 58c-26 16-36 36-36 66v100a22 22 0 0 0 22 22h48a22 22 0 0 0 22-22V124c0-30-10-50-36-66z" fill="url(#glass)"/>
+        <path d="M30 100c-4 30-4 90 0 120" stroke="#fff" stroke-opacity=".35" stroke-width="5" stroke-linecap="round" fill="none"/>
+        <rect x="26" y="130" width="68" height="78" rx="8" fill="#faf5ea"/>
+        <text x="60" y="158" text-anchor="middle" font-family="Georgia,serif" font-size="8.5" font-weight="700" fill="#2f3a24" letter-spacing=".8">MOLARGAN</text>
+        <line x1="40" x2="80" y1="167" y2="167" stroke="#c8923a"/>
+        <text x="60" y="184" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#6d6354">Huile d’argan</text>
+        <text x="60" y="198" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="8" fill="#a8741f">100% naturelle</text>
+      </svg>
